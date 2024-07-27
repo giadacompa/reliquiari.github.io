@@ -13,16 +13,16 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <country type="nazione" key="IT"> Italia</country>
-                        <region type="regione"> Emilia Romagna</region>
-                        <settlement type="comune"> Bologna</settlement>
+                        <country type="nazione" key="IT">Italia</country>
+                        <region type="regione">Emilia Romagna</region>
+                        <settlement type="comune">Bologna</settlement>
                         <institution>Archivio di Stato di Bologna</institution>
                         <institution type="VIAF">154202136</institution>
                         <collection>Fondo S. Domenico</collection>
                         <idno>ms. 240/7574 Campione 2</idno>
                         <altIdentifier>
-                        <idno>fol. 94r: 1</idno>
-                        <date when="1380">1380</date>
+                            <idno>fol. 94r: 1</idno>
+                            <date when="1380"/>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
@@ -47,16 +47,16 @@
                 <head>Registrum rerum sacristie conventus bononiensis ordinis predicatorum</head>
                 <list>
                     <item n="2">
-                        <p>Imprimis una crux de argento deaurata et magna que portatur in processionibus <add place="margin" when="post-1380"> cum una velleria rubei coloris et cum virgulis aureis.</add></p>
+                        <p>Imprimis una crux de argento deaurata et magna que portatur in processionibus <add place="margin" when="post-1380">cum una velleria rubei coloris et cum virgulis aureis.</add></p>
                     </item>
                     <item n="3">
-                        <p>Item due alie pro processionibus <add place="margin" when="post-1380"> vellerie. Item VI alie vellerie inter alias virgulatas de auro et de serico. Item una alia velleria virgulata de auro et lacerata.</add></p>
+                        <p>Item due alie pro processionibus <add place="margin" when="post-1380">vellerie. Item VI alie vellerie inter alias virgulatas de auro et de serico. Item una alia velleria virgulata de auro et lacerata.</add></p>
                     </item>
                     <item n="4">
                         <p>Item una alia magna argentea cum pede magno de auricalco cum armatura illorum de progenie domini Jo(annis) de congruo qui eam dedit.</p>
                     </item>
                     <item n="5">
-                        <p>Item unus calix aureus quem dedit papa benedictus ordinis nostri <add place="margin" when="post-1380"> et iste calix fuit positus in tabernaculo beati dominici, cum una lampada de argento magna, et cum sex calicibus et cum aliis multis rebus et omnia ista fuerunt conflata absque pecunia.</add></p>
+                        <p>Item unus calix aureus quem dedit papa benedictus ordinis nostri <add place="margin" when="post-1380">et iste calix fuit positus in tabernaculo beati dominici, cum una lampada de argento magna, et cum sex calicibus et cum aliis multis rebus et omnia ista fuerunt conflata absque pecunia.</add></p>
                     </item>
                     <item n="6">
                         <p>Item XXVII calices deaurati quorum.</p>
@@ -77,7 +77,7 @@
                         <p>Item duo turibula argentea deaurata cum duabus naviselis deauratis <add place="margin" when="post-1380">pro festis duplicibus et supra et cocleariis de argento.</add></p>
                     </item>
                     <item n="12">
-                        <p>Item unum turibulum de argento cum navisela et cocleari de argento <add place="margin" when="post-1380"> parvum quod dedit conventui quondam d(omina) bartholomea de pepolis.</add></p>
+                        <p>Item unum turibulum de argento cum navisela et cocleari de argento <add place="margin" when="post-1380">parvum quod dedit conventui quondam d(omina) bartholomea de pepolis.</add></p>
                     </item>
                     <item n="13">
                         <p>Item unum aliud turibulum de argento cum navicula de argento et cocleari non de argento. <add place="margin" when="post-1380">Istud turibulum fuit conflatum et positum in predicto tabernaculo.</add></p>
