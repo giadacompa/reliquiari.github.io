@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Reliquiari Medievali a Bologna</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sito dedicato ai reliquiari medievali bolognesi">
+    <meta name="keywords" content="reliquiari, medioevo, bologna, strumenti di navigazione">
+    <meta name="author" content="Giada Compagnoni">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile/stile.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    <meta name="DC.Title" content="Reliquiari Medievali a Bologna">
+    <meta name="DC.Creator" content="Compagnoni, Giada">
+    <meta name="DC.Subject" content="Reliquiari">
+    <meta name="DC.Subject" content="Medioevo">
+    <meta name="DC.Subject" content="Bologna">
+    <meta name="DC.Description" content="Descrizione di alcuni reliquiari medievali a Bologna">
+    <meta name="DC.Publisher" content="Università di Bologna">
+    <meta name="DC.Date" content="2024">
+    <meta name="DC.Type" content="text">
+    <meta name="DC.Format" content="HTML">
+    <meta name="DC.Identifier" content="tbd">
+    <meta name="DC.Source" content="Progetto universitario">
+    <meta name="DC.Language" content="ita">
+    <meta name="DC.Coverage" content="Bologna">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav>
+                <div class="nav">
+                    <div class="topnav">
+                        <ul>
+                            <li class="logo-li">
+                                <a href="index.html"><img src="img/logo.png" alt="Logo" class="logo"></a>
+                            </li>
+                            <div class="center-nav">
+                                <li class="nav-links"><a href="index.html" class="pagina-corrente" title="Link alla home">Home</a></li>
+                                <li class="nav-links"><a href="introduzione.html" class="active" title="Link all'introduzione">Introduzione</a></li>
+                                <li class="nav-links"><a href="catalogo.html" class="active" title="Link al catalogo">Catalogo</a></li>
+                            </div>
+                            <li class="empty-col"></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <!-- Colonna di sinistra per l'ordinamento -->
+                <div class="col-md-4">
+                    <!-- breadcrumbs -->
+                    <div>
+                        <ul class="breadcrumb">
+                          <li><a href="index.html">Home</a></li>
+                          <li>Catalogo</li>
+                        </ul>
+                    </div>
+                    <section>
+                        <p>Ordina per</p>
+                        <button class="btn default" onclick="ordinaSchede('data', 'asc')" title="In ordine cronologico">Ordine cronologico</button>
+                        <button class="btn bg-pink" onclick="toggleAccordion()" title="Luogo">Luogo</button>
+                        <div id="accordion-content" class="accordion-content" style="display: none;">
+                            <button class="btn sub-item" onclick="ordinaSchede('luogo', 'asc', 'San Domenico')" title="San Domenico">San Domenico</button>
+                            <button class="btn sub-item" onclick="ordinaSchede('luogo', 'asc', 'San Giovanni')" title="San Giovanni in Monte">San Giovanni in Monte</button>
+                            <button class="btn sub-item" onclick="ordinaSchede('luogo', 'asc', 'San Pietro')" title="San Pietro">San Pietro</button>
+                            <button class="btn sub-item" onclick="ordinaSchede('luogo', 'asc', 'San Petronio')" title="San Petronio">San Petronio</button>
+                            <button class="btn sub-item" onclick="ordinaSchede('luogo', 'asc', 'Santo Stefano')" title="Santo Stefano">Santo Stefano</button>
+                        </div>
+                    </section>
+                </div>
+                <!-- Colonna di destra per le schede del catalogo -->
+                <div class="col-md-8">
+                    <div class="container">
+                        <ul class="topnav-special">
+                            <li class="uno"><a href="opere.html" class="active"><b>Opere</b></a></li>
+                            &emsp;&emsp;
+                            <li class="due"><a href="iscrizioni.html"><b>Iscrizioni</b></a></li>
+                            &emsp; &emsp;
+                            <li class="tre"><a href="documenti.html"><b>Documenti</b></a></li>
+                            &emsp; &emsp;
+                            <li class="quattro"><a href="media.html"><b>Media</b></a></li>
+                            &emsp; &emsp;
+                        </ul>
+                    </div>
+                    <div class="container">
+                        <div class="searchbar">
+                            <input type="text" name="search" placeholder="Search..">
+                        </div>
+                    </div>
+                    <section>
+                        <div id="catalogo">
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="catalog-card" data-titolo="Reliquiario del capo di San Domenico" data-data="1383" data-luogo="San Domenico">
+                                        <div class="container" style="text-align: left;">
+                                            <a href="opdomenico.html"><img src="img/SanDomenico.jpg" alt="Reliquiario del capo di San Domenico" class="catalog-image"></a>
+                                            <h3>Reliquiario del capo di San Domenico</h3>
+                                            <p>Jacopo Roseto, Reliquiario di San Domenico, 1383, Bologna, Chiesa di San Domenico</p>
+                                            <p>Autore: Jacopo Roseto</p>
+                                            <p>Data: 1383</p>
+                                            <p>Luogo: Bologna, Chiesa di San Domenico</p>
+                                            <a href="opdomenico.html" class="btn default" title="Vai all'opera">Vai all'opera</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="catalog-card" data-titolo="Registro della sacrestia di San Domenico" data-data="1380" data-luogo="San Domenico">
+                                        <div class="container">
+                                            <a href="dcregistro.html"><img src="img/registrum1.jpeg" alt="Registro Sacrestia di San Domenico" class="catalog-image"></a>
+                                            <h3>Registro della sagrestia di San Domenico - 1380</h3>
+                                            <p>Bologna, Archivio di Stato, fondo S. Domenico, ms. 240/7574, Campione II, fol. 94r ss.</p>
+                                            <a href="dcregistro.html" class="btn default" title="Vai all'opera">Vai all'opera</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="catalog-card" data-titolo="Video Reliquiario di San Domenico" data-data="2016" data-luogo="San Domenico">
+                                        <div class="container">
+                                            <iframe width="300" height="340" src="https://www.youtube.com/embed/qnuQMgKLb-A?si=M5YTA9h5X2pKL1Sh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            <p>Relazione sul Reliquairio di San Domenico del Dottor. F. Faranda</p>
+                                            <p>Parte dell'iniziativa "Intinerari per il giubileo. Basiliche bolognesi tra storia e immagini per la fede"</p>
+                                            <a href="#" class="btn default" title="Vai all'opera">Vai all'opera</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="catalog-card" data-titolo="Fotografia Archivio Poppi" data-data="1900" data-luogo="San Domenico">
+                                        <div class="container">
+                                            <img src="img/1900SanDomenico1.png" alt="Fotografia storica Archivio Poppi Reliquiario di San Domenico" class="catalog-image">
+                                            <p>Titolo: Bologna - Chiesa di S.Domenico, Cappella di S.Domenico, Reliquario del capo di S.Domenico (positivo)</p>
+                                            <p>Autore: Poppi Pietro</p>
+                                            <p>Datazione: Inizio XX secolo</p>
+                                            <p>Numero identificativo: MPI138189</p>
+                                            <a href="#" class="btn default" title="Vai all'opera">Vai all'opera</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="catalog-card" data-titolo="Firma di Jacopo Roseto" data-data="1383" data-luogo="San Domenico">
+                                        <div class="container">
+                                            <img src="img/iscdomenico1.png" alt="#" class="catalog-image">
+                                            <h5>Firma di Jacopo Roseto</h5>
+                                            <p>Testo:"IACOBUS DITUS ROSETUS DE BONONIA ME FECIT"</p>
+                                            <p>Autore: Jacopo Roseto</p>
+                                            <p>Datazione: 1383</p>
+                                            <p>Altre letture: non presenti</p>
+                                            <p>Posizione: Lungo le cornici del basamento ligneo</p>
+                                            <p>Materiale e Tecnica: Lamina metallica incisa</p>
+                                            <a href="#" class="btn default" title="Scopri di più">Scopri di più</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="catalog-card" data-titolo="Iscrizione di Matteo Orsini" data-data="1577" data-luogo="San Domenico">
+                                        <div class="container">
+                                            <img src="img/iscdoemenico2.jpg" alt="#" class="catalog-image">
+                                            <h5>Intervento di Matteo Orsini e di papa Benedetto XI a favore del reliquairio</h5>
+                                            <p>"D(omini) MATTHAEI URSINI CARD(inalis) ORD(inis) PR(aedicatorum) SENAT(usque) BON(ononiensis) CURA UT S(anctis)S(i)MI D(omini) BENED(icti) P(a)P(ae) XI VOLUNT(tas) EXEQ(ueretur) EXTRUC(ta) THEC(a) A(nno) MCCCLXXXIII SAC(rum) CAPUT S(anctis)S(i)MI P(atris) N(ostri) DOMINICI REP(ositum) E(st).</p>
+                                            <p>Autore: Anonimo</p>
+                                            <p>Datazione: 1577 ca.</p>
+                                            <a href="#" class="btn default" title="Scopri di più">Scopri di più</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="catalog-card" data-titolo="Reliquiario di San Petronio" data-data="1380" data-luogo="Bologna, Museo di Santo Stefano">
+                                        <div class="container">
+                                            <a href="#"><img src="img/SanPetronio.jpg" alt="Reliquiario del capo di San Petronio" class="catalog-image"></a>
+                                            <h3>Reliquiario del capo di San Petronio</h3>
+                                            <p>Jacopo Roseto, Reliquiario di San Petronio, 1380, Bologna, Museo di Santo Stefano</p>
+                                            <p>Autore: Jacopo Roseto</p>
+                                            <p>Data: 1380</p>
+                                            <p>Luogo: Bologna, Museo di Santo Stefano</p>
+                                            <a href="#" class="btn default" title="Vai all'opera">Vai all'opera</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="catalog-card" data-titolo="Reliquiario di San Giovanni" data-data="1413" data-luogo="Bologna, Chiesa di San Giovanni in Monte">
+                                        <div class="container">
+                                            <img src="img/SanGiovanni.jpg" alt="Reliquiario di San Giovanni" class="catalog-image">
+                                            <h3>Reliquiario di San Giovanni</h3>
+                                            <p>Amalia di Bitino Pellacane, Reliquiario di San Giovanni, 1413, Bologna, Chiesa di San Giovanni in Monte</p>
+                                            <p>Autore: Amalia di Bitino Pellacane</p>
+                                            <p>Data: 1413</p>
+                                            <p>Luogo: Bologna, Chiesa di San Giovanni in Monte</p>
+                                            <a href="#" class="btn default" title="Vai all'opera">Vai all'opera</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="catalog-card" data-titolo="Reliquiario di San Tommaso" data-data="1420" data-luogo="Bologna, Museo di San Domenico">
+                                        <div class="container">
+                                            <img src="img/SanTommaso.jpeg" alt="Reliquiario di San Tommaso" class="catalog-image">
+                                            <h3>Reliquiario di San Tommaso</h3>
+                                            <p>Iacopo di Michele, Reliquiario di San Tommaso, 1420, Bologna, Museo di San Domenico</p>
+                                            <p>Autore: Iacopo di Michele</p>
+                                            <p>Data: 1420</p>
+                                            <p>Luogo: Bologna, Museo di San Domenico</p>
+                                            <a href="#" class="btn default" title="Vai all'opera">Vai all'opera</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="catalog-card" data-titolo="Reliquiario di San Floriano" data-data="1451" data-luogo="Bologna, Museo di Santo Stefano">
+                                        <div class="container">
+                                            <img src="img/SanFloriano.jpg" alt="Reliquiario di San Floriano" class="catalog-image">
+                                            <h3>Reliquiario di San Floriano</h3>
+                                            <p>Matteo dei Tederici, Reliquiario di San Floriano, 1451, Bologna, Museo di Santo Stefano</p>
+                                            <p>Autore: Matteo dei Tederici</p>
+                                            <p>Data: 1451</p>
+                                            <p>Luogo: Bologna, Museo di Santo Stefano</p>
+                                            <a href="#" class="btn default" title="Vai all'opera">Vai all'opera</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            </div>
+        </div>
+        <section>
+            <div class="container">
+                <iframe src="https://uploads.knightlab.com/storymapjs/ab9326afee0cd1e4deaf3c2aeb20c08a/reliquiari-medievali/index.html" frameborder="0" width="1000" height="400" title="Mappa Reliquiari"></iframe>
+            </div>
+        </section>
+        <section>
+            <div class="pre-footer">Credits | Licenze</div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div>&copy; Giada Compagnoni 2024 - Corso di Digital Humanites e Patrimonio culturale</div>
+        </div>
+    </footer>
+    <script>
+        function ordinaSchede(criterio, ordine, luogo) {
+        var catalogo = document.getElementById('catalogo');
+        var schede = Array.from(catalogo.getElementsByClassName('catalog-card'));
+
+        // Rimuovi tutte le schede dal DOM
+        while (catalogo.firstChild) {
+            catalogo.removeChild(catalogo.firstChild);
+        }
+
+        schede.sort(function(a, b) {
+            var valoreA = a.getAttribute('data-' + criterio).toUpperCase();
+            var valoreB = b.getAttribute('data-' + criterio).toUpperCase();
+            if (criterio === 'data') {
+                valoreA = parseInt(valoreA);
+                valoreB = parseInt(valoreB);
+            }
+            if (luogo) {
+                valoreA = a.getAttribute('data-luogo').toUpperCase().includes(luogo.toUpperCase()) ? valoreA : '';
+                valoreB = b.getAttribute('data-luogo').toUpperCase().includes(luogo.toUpperCase()) ? valoreB : '';
+            }
+            if (ordine === 'asc') {
+                return valoreA < valoreB ? -1 : (valoreA > valoreB ? 1 : 0);
+            } else {
+                return valoreA > valoreB ? -1 : (valoreA < valoreB ? 1 : 0);
+            }
+        });
+
+        // Ricrea le colonne e aggiungi le schede ordinate
+        var row = document.createElement('div');
+        row.className = 'row';
+        schede.forEach(function(scheda) {
+            var col = document.createElement('div');
+            col.className = 'col-md-6 mb-4';
+            col.appendChild(scheda);
+            row.appendChild(col);
+        });
+        catalogo.appendChild(row);
+    }
+
+    function toggleAccordion() {
+        var accordionContent = document.getElementById('accordion-content');
+        if (accordionContent.style.display === 'block') {
+            accordionContent.style.display = 'none';
+        } else {
+            accordionContent.style.display = 'block';
+        }
+    }
+    </script>
+</body>
+</html>

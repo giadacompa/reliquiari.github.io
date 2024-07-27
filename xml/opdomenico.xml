@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mp="http://purl.org/dc/dcmitype/">
+
+    <dc:title>Reliquiario di San Domenico</dc:title>
+    
+    <dc:creator xsi:type="dcterms:Agent" mp:ref="http://vocab.getty.edu/page/ulan/500330330">Jacopo Roseto</dc:creator>
+    
+    <dc:subject xsi:type="dcterms:LCSH">San Domenico</dc:subject>
+    <dc:subject xsi:type="dcterms:LCSH">Santi</dc:subject>
+    <dc:subject xsi:type="dcterms:LCSH">Annunciazione</dc:subject>
+    <dc:subject xsi:type="dcterms:LCSH">Angeli musicanti</dc:subject>
+    
+    <dc:description>Il Reliquiario di San Domenico è stato realizzato da Jacopo Roseto nel 1383. Esso misura 126 cm di altezza ed è attualmente conservato nella Basilica di San Domenico a Bologna. Questo reliquiario contiene la testa di San Domenico ed è un esempio pregevole di oreficeria medievale.</dc:description>
+    
+    <dc:publisher>Università di Bologna</dc:publisher>
+    <dc:contributor>Giada Compagnoni</dc:contributor>
+    
+    <dc:date xsi:type="dcterms:W3CDTF">1383-01-01</dc:date>
+    <dc:date xsi:type="dcterms:Created">1383</dc:date>
+    <dc:date xsi:type="dcterms:Issued">2024-07-17</dc:date>
+    
+    <dc:type xsi:type="dcterms:AAT" mp:ref="http://vocab.getty.edu/page/aat/300300896">Reliquiario ad ostensorio</dc:type>
+    
+    <dcterms:medium xsi:type="dcterms:AAT" mp:ref="http://vocab.getty.edu/page/aat/300380110">Argento dorato</dcterms:medium>
+    <dcterms:medium xsi:type="dcterms:AAT" mp:ref="http://vocab.getty.edu/page/aat/300053829">Incisione</dcterms:medium>
+    <dcterms:medium xsi:type="dcterms:AAT" mp:ref="http://vocab.getty.edu/page/aat/300053777">Smaltatura</dcterms:medium>
+    
+    <dcterms:extent>126 cm di altezza</dcterms:extent>
+    
+    <dc:identifier>0800051397</dc:identifier>
+    <dc:source xsi:type="dcterms:URI">https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0800051397</dc:source>
+    
+    <dc:language xsi:type="dcterms:ISO639-2">ita</dc:language>
+    
+    <dc:relation xsi:type="dcterms:hasVersion">Reliquiario di San Petronio</dc:relation>
+    <dc:relation xsi:type="dcterms:isReferencedBy">Arca di San Domenico</dc:relation>
+    <dc:relation xsi:type="dcterms:BibliographicResource">W. Samaja, L'arte degli orefici a Bologna nei secoli XIII e XIV, in "l'Archiginnasio", Bologna 1934, pp. 214-240</dc:relation>
+    <dc:relation xsi:type="dcterms:BibliographicResource">F. Filippini, Il reliquiario del capo di S. Domenico, in "Memorie Domenicane", LIV, 1937, pp. 286-297</dc:relation>
+    <dc:relation xsi:type="dcterms:BibliographicResource">V. Alce, Il reliquiario del capo di S. Domenico, in "Culta Bononia", anno III, n. 1, 1971, р.12-45</dc:relation>
+    <dc:relation xsi:type="dcterms:BibliographicResource">G. Pizzi, Jacopo Roseto orafo, in "Culta Bononia", anno III, n. 2, Bologna 1972, pp. 201-219</dc:relation>
+    <dc:relation xsi:type="dcterms:BibliographicResource">D. Trento, Tracciato per l'oreficeria a Bologna: reliquiari e paramenti liturgici dal 1372 al 1451, in "Il tramonto del Medioevo", 1987, pp. 231-253</dc:relation>
+    <dc:relation xsi:type="dcterms:BibliographicResource">Jacobus Rosetus: II Reliquiario del Capo di San Domenico, catalogo di mostra (Musei civici d'arte antica Bologna, 18 aprile - 28 giugno 1998), Bologna 1998</dc:relation>
+    <dc:relation xsi:type="dcterms:BibliographicResource">I. Corelli Grappadelli, Orafi e argentieri a Bologna nei secoli XIII e XIV, in "Strenna Storica Bolognese", anno LII (2002), pp. 180-187</dc:relation>
+    <dc:relation xsi:type="dcterms:BibliographicResource">R. Pini, Orificeria e potere a Bologna nei secoli XIV e XV, Bologna, CLUEB 2007</dc:relation>
+    
+    <dcterms:educationLevel>Università</dcterms:educationLevel>
+    
+    <dc:coverage xsi:type="dcterms:ISO3166">IT</dc:coverage>
+    <dc:coverage xsi:type="dcterms:TGN" mp:ref="http://vocab.getty.edu/page/tgn/7004847">Bologna</dc:coverage>
+    <dc:coverage>Basilica di San Domenico</dc:coverage>
+    <dc:coverage>Sesta cappella a destra</dc:coverage>
+    <dc:coverage xsi:type="dcterms:Period">1383</dc:coverage>
+    <dc:coverage xsi:type="dcterms:Period">XIV secolo</dc:coverage>
+    
+    <dc:rights>Accesso libero</dc:rights>
+    <dcterms:rightsHolder>Università di Bologna</dcterms:rightsHolder>
+    <dcterms:license>https://creativecommons.org/licenses/by/4.0/</dcterms:license>
+    <dcterms:accessRights>Public</dcterms:accessRights>
+
+</metadata>

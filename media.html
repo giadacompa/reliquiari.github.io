@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Reliquiari Medievali a Bologna</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sito dedicato ai reliquiari medievali bolognesi">
+    <meta name="keywords" content="reliquiari, medioevo, bologna, strumenti di navigazione">
+    <meta name="author" content="Giada Compagnoni">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile/stile.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    <meta name="DC.Title" content="Reliquiari Medievali a Bologna">
+    <meta name="DC.Creator" content="Compagnoni, Giada">
+    <meta name="DC.Subject" content="Reliquiari">
+    <meta name="DC.Subject" content="Medioevo">
+    <meta name="DC.Subject" content="Bologna">
+    <meta name="DC.Description" content="Descrizione di alcuni reliquiari medievali a Bologna">
+    <meta name="DC.Publisher" content="Università di Bologna">
+    <meta name="DC.Date" content="2024">
+    <meta name="DC.Type" content="text">
+    <meta name="DC.Format" content="HTML">
+    <meta name="DC.Identifier" content="tbd">
+    <meta name="DC.Source" content="Progetto universitario">
+    <meta name="DC.Language" content="ita">
+    <meta name="DC.Coverage" content="Bologna">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav>
+                <div class="nav">
+                    <div class="topnav">
+                        <ul>
+                            <li class="logo-li">
+                                <a href="index.html"><img src="img/logo.png" alt="Logo" class="logo"></a>
+                            </li>
+                            <div class="center-nav">
+                                <li class="nav-links"><a href="index.html" class="pagina-corrente" title="Link alla home">Home</a></li>
+                                <li class="nav-links"><a href="introduzione.html" class="active" title="Link all'introduzione">Introduzione</a></li>
+                                <li class="nav-links"><a href="catalogo.html" class="active" title="Link al catalogo">Catalogo</a></li>
+                            </div>
+                            <li class="empty-col"></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <!-- Colonna di sinistra per l'ordinamento -->
+                <div class="col-md-4">
+                    <!-- breadcrumbs -->
+                    <div>
+                        <ul class="breadcrumb">
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="catalogo.html">Catalogo</a></li>
+                          <li>Media</li>
+                        </ul>
+                    </div>
+                    <section>
+                        <p>Ordina per</p>
+                        <button class="btn default" onclick="ordinaSchede('data', 'asc')" title="In ordine cronologico">Ordine cronologico</button>
+                        <button class="btn bg-pink" onclick="toggleAccordion()" title="Luogo">Luogo</button>
+                        <div id="accordion-content" class="accordion-content" style="display: none;">
+                            <button class="btn sub-item" onclick="ordinaSchede('luogo', 'asc', 'San Domenico')" title="San Domenico">San Domenico</button>
+                            <button class="btn sub-item" onclick="ordinaSchede('luogo', 'asc', 'San Giovanni')" title="San Giovanni in Monte">San Giovanni in Monte</button>
+                            <button class="btn sub-item" onclick="ordinaSchede('luogo', 'asc', 'San Pietro')" title="San Pietro">San Pietro</button>
+                            <button class="btn sub-item" onclick="ordinaSchede('luogo', 'asc', 'San Petronio')" title="San Petronio">San Petronio</button>
+                            <button class="btn sub-item" onclick="ordinaSchede('luogo', 'asc', 'Santo Stefano')" title="Santo Stefano">Santo Stefano</button>
+                        </div>
+                    </section>
+                </div>
+                <!-- Colonna di destra per le schede del catalogo -->
+                <div class="col-md-8">
+                    <div class="container">
+                        <ul class="topnav-special">
+                            <li class="uno"><a href="opere.html"><b>Opere</b></a></li>
+                            &emsp;&emsp;
+                            <li class="due"><a href="iscrizioni.html" class="active"><b>Iscrizioni</b></a></li>
+                            &emsp; &emsp;
+                            <li class="tre"><a href="documenti.html"><b>Documenti</b></a></li>
+                            &emsp; &emsp;
+                            <li class="quattro"><a href="media.html"><b>Media</b></a></li>
+                            &emsp; &emsp;
+                        </ul>
+                    </div>
+                    <div class="container">
+                        <div class="searchbar">
+                            <input type="text" name="search" placeholder="Search..">
+                        </div>
+                    </div>
+                    <section>
+                        <div id="catalogo">
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="catalog-card" data-titolo="#" data-data="#" data-luogo="#">
+                                        <div class="container">
+                                            <img src="img/meddomenico.jpg" alt="Teschio di San Domenico" class="catalog-image">
+                                            <h3>Fotografie e Video - San Domenico</h3>
+                                            <p>Approfondisci il reliquiario di San Domenico</p>
+                                            <a href="meddomenico.html" class="btn default" title="Vai all'opera">Per saperne di più</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="catalog-card" data-titolo="#" data-data="#" data-luogo="#">
+                                        <div class="container">
+                                            <img src="img/medpetronio.jpeg" alt="#" class="catalog-image">
+                                            <h3> Fotografie e Video - San Petronio</h3>
+                                            <p>Approfondisci il reliquiario di San Petronio</p>
+                                            <a href="#" class="btn default" title="Vai all'opera">Per saperne di più</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="catalog-card" data-titolo="#" data-data="#" data-luogo="#">
+                                        <div class="container">
+                                            <img src="#" alt="#" class="catalog-image">
+                                            
+                                            <a href="#" class="btn default" title="Vai all'opera">Vai all'opera</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="catalog-card" data-titolo="#" data-data="#" data-luogo="#">
+                                        <div class="container">
+                                            <img src="#" alt="#" class="catalog-image">
+                                        
+                                            <a href="#" class="btn default" title="Vai all'opera">Vai all'opera</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="catalog-card" data-titolo="#" data-data="#" data-luogo="#">
+                                        <div class="container">
+                                            <img src="#" alt="#" class="catalog-image">
+                                            
+                                            <a href="#" class="btn default" title="Vai all'opera">Vai all'opera</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            </div>
+        </div>
+        <section>
+            <div class="container">
+                <iframe src="https://uploads.knightlab.com/storymapjs/ab9326afee0cd1e4deaf3c2aeb20c08a/reliquiari-medievali/index.html" frameborder="0" width="1000" height="400" title="Mappa Reliquiari"></iframe>
+            </div>
+        </section>
+        <section>
+            <div class="pre-footer">Credits | Licenze</div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div>&copy; Giada Compagnoni 2024 - Corso di Digital Humanites e Patrimonio culturale</div>
+        </div>
+    </footer>
+    <script>
+        function ordinaSchede(criterio, ordine, luogo) {
+        var catalogo = document.getElementById('catalogo');
+        var schede = Array.from(catalogo.getElementsByClassName('catalog-card'));
+
+        // Rimuovi tutte le schede dal DOM
+        while (catalogo.firstChild) {
+            catalogo.removeChild(catalogo.firstChild);
+        }
+
+        schede.sort(function(a, b) {
+            var valoreA = a.getAttribute('data-' + criterio).toUpperCase();
+            var valoreB = b.getAttribute('data-' + criterio).toUpperCase();
+            if (criterio === 'data') {
+                valoreA = parseInt(valoreA);
+                valoreB = parseInt(valoreB);
+            }
+            if (luogo) {
+                valoreA = a.getAttribute('data-luogo').toUpperCase().includes(luogo.toUpperCase()) ? valoreA : '';
+                valoreB = b.getAttribute('data-luogo').toUpperCase().includes(luogo.toUpperCase()) ? valoreB : '';
+            }
+            if (ordine === 'asc') {
+                return valoreA < valoreB ? -1 : (valoreA > valoreB ? 1 : 0);
+            } else {
+                return valoreA > valoreB ? -1 : (valoreA < valoreB ? 1 : 0);
+            }
+        });
+
+        // Ricrea le colonne e aggiungi le schede ordinate
+        var row = document.createElement('div');
+        row.className = 'row';
+        schede.forEach(function(scheda) {
+            var col = document.createElement('div');
+            col.className = 'col-md-6 mb-4';
+            col.appendChild(scheda);
+            row.appendChild(col);
+        });
+        catalogo.appendChild(row);
+    }
+
+    function toggleAccordion() {
+        var accordionContent = document.getElementById('accordion-content');
+        if (accordionContent.style.display === 'block') {
+            accordionContent.style.display = 'none';
+        } else {
+            accordionContent.style.display = 'block';
+        }
+    }
+    </script>
+</body>
+</html>

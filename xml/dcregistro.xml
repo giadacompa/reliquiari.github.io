@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Registrum rerum sacristie conventus bononiensis ordinis predicatorum</title>
+                <author>Anonimo</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Giada Compagnoni</publisher>
+                <date when="2024"/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country type="nazione" key="IT"> Italia</country>
+                        <region type="regione"> Emilia Romagna</region>
+                        <settlement type="comune"> Bologna</settlement>
+                        <institution>Archivio di Stato di Bologna</institution>
+                        <institution type="VIAF">154202136</institution>
+                        <collection>Fondo S. Domenico</collection>
+                        <idno>ms. 240/7574 Campione 2</idno>
+                        <date when="1390">
+                        <altIdentifier>
+                        <idno>fol. 94r: 1</idno>
+                        <date when="1380">
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Elenco di alcuni degli oggetti sacri appartenenti al convento dei Predicatori di Bologna intorno all'anno 1380</summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Manoscritto</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="register">
+                <head>Registrum rerum sacristie conventus bononiensis ordinis predicatorum</head>
+                <list>
+                    <item n="2">
+                        <p>Imprimis una crux de argento deaurata et magna que portatur in processionibus <add place="margin" when="post-1380"> cum una velleria rubei coloris et cum virgulis aureis.</add></p>
+                    </item>
+                    <item n="3">
+                        <p>Item due alie pro processionibus <add place="margin" when="post-1380"> vellerie. Item VI alie vellerie inter alias virgulatas de auro et de serico. Item una alia velleria virgulata de auro et lacerata.</add></p>
+                    </item>
+                    <item n="4">
+                        <p>Item una alia magna argentea cum pede magno de auricalco cum armatura illorum de progenie domini Jo(annis) de congruo qui eam dedit.</p>
+                    </item>
+                    <item n="5">
+                        <p>Item unus calix aureus quem dedit papa benedictus ordinis nostri <add place="margin" when="post-1380"> et iste calix fuit positus in tabernaculo beati dominici, cum una lampada de argento magna, et cum sex calicibus et cum aliis multis rebus et omnia ista fuerunt conflata absque pecunia.</add></p>
+                    </item>
+                    <item n="6">
+                        <p>Item XXVII calices deaurati quorum.</p>
+                    </item>
+                    <item n="7">
+                        <p><add place="margin" when="post-1380">Item XXII calices argentei, inter magnos et parvos cum suis patenis.</add></p>
+                    </item>
+                    <item n="8">
+                        <p><add place="margin" when="post-1380">Item unum tabernaculum argenteum magni valoris pro capite beati dominici ponderis mille du centarum unciarum vel idcirca.</add></p>
+                    </item>
+                    <item n="9">
+                        <p>Item due ampule de argento deaurato pro altari maiori.</p>
+                    </item>
+                    <item n="10">
+                        <p>Item una lampas argenti que est supra archam beati dominici quam misit rex ungarie.</p>
+                    </item>
+                    <item n="11">
+                        <p>Item duo turibula argentea deaurata cum duabus naviselis deauratis <add place="margin" when="post-1380">pro festis duplicibus et supra et cocleariis de argento.</add></p>
+                    </item>
+                    <item n="12">
+                        <p>Item unum turibulum de argento cum navisela et cocleari de argento <add place="margin" when="post-1380"> parvum quod dedit conventui quondam d(omina) bartholomea de pepolis.</add></p>
+                    </item>
+                    <item n="13">
+                        <p>Item unum aliud turibulum de argento cum navicula de argento et cocleari non de argento. <add place="margin" when="post-1380">Istud turibulum fuit conflatum et positum in predicto tabernaculo.</add></p>
+                    </item>
+                    <item n="14">
+                        <p>Item duo candelabra de argento magna cum smaltis.</p>
+                    </item>
+                    <item n="15">
+                        <p>Item duo candelabra de auricalco.</p>
+                    </item>
+                    <item n="16">
+                        <p>Item sex candelabra de ligno pro acolitis parvi valoris.</p>
+                    </item>
+                    <item n="17">
+                        <p>Item sex candelabra de ligno pro altari maiori.</p>
+                    </item>
+                    <item n="18">
+                        <p>Item octo candelabra de fero magna que ponuntur ante altaria quorum duo sunt in palacio ancianorum.</p>
+                    </item>
+                    <item n="19">
+                        <p>Item coronatio beate virginis de argento quam dedit dominus mattheus de ursinis cardinalis; <add place="margin" when="post-1380">predicte ymagines fuerunt conflate et posite in tabernaculo beati dominici.</add></p>
+                    </item>
+                    <item n="20">
+                        <p>Item duo angeli de argento cum pede de argento deaurati tenentes unam caselam de cristalo in qua est digitus sancti lodovici.</p>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

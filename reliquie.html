@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Reliquiari Medievali a Bologna</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Sito dedicato ai reliquiari medievali bolognesi" />
+    <meta name="keywords" content="reliquiari, medioevo, bologna, strumenti di navigazione" />
+    <meta name="author" content="Giada Compagnoni" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile/stile.css" />
+    <link rel="stylesheet" href="stile/bootstrap.min.css">
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    <meta name="DC.Title" content="Reliquiari Medievali a Bologna">
+    <meta name="DC.Creator" content="Compagnoni, Giada">
+    <meta name="DC.Subject" content="Reliquiari">
+    <meta name="DC.Subject" content="Medioevo">
+    <meta name="DC.Subject" content="Bologna">
+    <meta name="DC.Description" content="Descrizione di alcuni reliquiari medievali a Bologna">
+    <meta name="DC.Publisher" content="Università di Bologna">
+    <meta name="DC.Date" content="2024">
+    <meta name="DC.Type" content="text">
+    <meta name="DC.Format" content="HTML">
+    <meta name="DC.Identifier" content="tbd">
+    <meta name="DC.Source" content="Progetto universitario">
+    <meta name="DC.Language" content="ita">
+    <meta name="DC.Coverage" content="Bologna">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav>
+                <div class="nav">
+                    <div class="topnav">
+                        <ul>
+                            <li class="logo-li">
+                                <a href="index.html"><img src="img/logo.png" alt="Logo" class="logo"></a>
+                            </li>
+                            <div class="center-nav">
+                                <li class="nav-links"><a href="index.html" class="pagina-corrente" title="Link alla home">Home</a></li>
+                                <li class="nav-links"><a href="introduzione.html" class="active" title="Link all'introduzione">Introduzione</a></li>
+                                <li class="nav-links"><a href="catalogo.html" class="active" title="Link al catalogo">Catalogo</a></li>
+                            </div>
+                            <li class="empty-col"></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="reliquie">
+                <h1>Il mondo delle reliquie medievali</h1>
+                <h3>Appunti</h3>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="img/reliquiari1.jpg" alt="Reliquiari1" class="cover-image">
+              </div>
+              <div class="column">
+                <img src="img/reliquiari2.jpg" alt="Reliquiari2" class="cover-image">
+              </div>
+              <div class="column">
+                <img src="img/reliquiari3.jpg" alt="Reliquiari3" class="cover-image">
+              </div>
+            </div>
+        <section>
+            <div class="pre-footer">Credits | Licenze</div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div>&copy; Giada Compagnoni 2024 - Corso di Digital Humanites e Patrimonio culturale</div>
+        </div>
+    </footer>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
